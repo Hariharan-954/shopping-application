@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import CardList from "./components/CardList";
 import Login from "./components/Login";
 import Cart from "./components/Cart";
@@ -9,7 +9,6 @@ import ProtectedRoute from './components/ProtectedRoute';
 
 function App() {
   return (
-    <Router basename="/shopping-application">
       <Frame>
         <Routes>
           <Route path="/" element={<Login />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path="/wishList" element={<ProtectedRoute><WishList /></ProtectedRoute>} />
         </Routes>
       </Frame>
-    </Router>
   );
 }
 
