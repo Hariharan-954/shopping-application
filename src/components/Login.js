@@ -28,8 +28,8 @@ const Login = () => {
 
   const handleSignIn = (event) => {
     event.preventDefault()
-    const storedEmail = 'rifihari123@gmail.com'
-    const storedPassword = 'Hari@React!234'
+    const storedEmail = process.env.REACT_APP_EMAIL
+    const storedPassword = process.env.REACT_APP_PASSWORD
 
     if (email === storedEmail && password === storedPassword) {
       localStorage.setItem("isAuthenticated", "true")
