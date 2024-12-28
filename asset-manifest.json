@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/shopping-application/static/js/main.8e3aeb8d.js",
-    "static/js/206.e7d3f4f3.chunk.js": "/shopping-application/static/js/206.e7d3f4f3.chunk.js",
+    "main.js": "/shopping-application/static/js/main.f5131df0.js",
+    "static/js/453.8566eefc.chunk.js": "/shopping-application/static/js/453.8566eefc.chunk.js",
     "static/media/monitorNew.png": "/shopping-application/static/media/monitorNew.8a62d369cd13ad8324a7.png",
     "static/media/headphoneNew.png": "/shopping-application/static/media/headphoneNew.8586a4d02a2b155b4620.png",
     "static/media/jacketNew.png": "/shopping-application/static/media/jacketNew.4700545d6a550e1f50ad.png",
@@ -15,9 +15,11 @@
     "static/media/speaker.png": "/shopping-application/static/media/speaker.410f6aaf8b1b8b8c5a67.png",
     "static/media/wishListEmpty.png": "/shopping-application/static/media/wishListEmpty.45442bdffa918489137f.png",
     "static/media/cartEmpty.png": "/shopping-application/static/media/cartEmpty.203f2684e11a1c04cb43.png",
-    "index.html": "/shopping-application/index.html"
+    "index.html": "/shopping-application/index.html",
+    "main.f5131df0.js.map": "/shopping-application/static/js/main.f5131df0.js.map",
+    "453.8566eefc.chunk.js.map": "/shopping-application/static/js/453.8566eefc.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8e3aeb8d.js"
+    "static/js/main.f5131df0.js"
   ]
 }
