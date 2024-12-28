@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.js": "/shopping-application/static/js/main.3834e134.js",
-    "static/js/453.8566eefc.chunk.js": "/shopping-application/static/js/453.8566eefc.chunk.js",
+    "main.js": "/shopping-application/static/js/main.8e3aeb8d.js",
+    "static/js/206.e7d3f4f3.chunk.js": "/shopping-application/static/js/206.e7d3f4f3.chunk.js",
     "static/media/monitorNew.png": "/shopping-application/static/media/monitorNew.8a62d369cd13ad8324a7.png",
     "static/media/headphoneNew.png": "/shopping-application/static/media/headphoneNew.8586a4d02a2b155b4620.png",
     "static/media/jacketNew.png": "/shopping-application/static/media/jacketNew.4700545d6a550e1f50ad.png",
     "static/media/laptopNew.png": "/shopping-application/static/media/laptopNew.f6ac3074b4821b49f4c8.png",
     "static/media/bluetooth_speaker.png": "/shopping-application/static/media/bluetooth_speaker.53a26e00f73dc2801ec2.png",
-    "static/media/keyBoard.png": "/shopping-application/static/media/keyBoard.c5b7997f0639d82b24e4.png",
     "static/media/test-joyStick.png": "/shopping-application/static/media/test-joyStick.b25f44f9bac506e9a41e.png",
     "static/media/gamePadNew.png": "/shopping-application/static/media/gamePadNew.f1f3bdfeb7f270ddc34c.png",
     "static/media/background.jpg": "/shopping-application/static/media/background.453f08b8cbc85e998a8a.jpg",
     "static/media/handBagNew.png": "/shopping-application/static/media/handBagNew.13f467aa822d3318e4fc.png",
+    "static/media/keyboard.png": "/shopping-application/static/media/keyboard.465b459a26eb59f98d56.png",
     "static/media/speaker.png": "/shopping-application/static/media/speaker.410f6aaf8b1b8b8c5a67.png",
     "static/media/wishListEmpty.png": "/shopping-application/static/media/wishListEmpty.45442bdffa918489137f.png",
     "static/media/cartEmpty.png": "/shopping-application/static/media/cartEmpty.203f2684e11a1c04cb43.png",
-    "index.html": "/shopping-application/index.html",
-    "main.3834e134.js.map": "/shopping-application/static/js/main.3834e134.js.map",
-    "453.8566eefc.chunk.js.map": "/shopping-application/static/js/453.8566eefc.chunk.js.map"
+    "index.html": "/shopping-application/index.html"
   },
   "entrypoints": [
-    "static/js/main.3834e134.js"
+    "static/js/main.8e3aeb8d.js"
   ]
 }
