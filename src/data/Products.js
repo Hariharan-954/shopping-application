@@ -1,6 +1,6 @@
 import handbag from '../images/handBagNew.png'
 import joyStick2 from '../images/gamePadNew.png'
-import keyboard from  '../images/keyBoard.png'
+import keyboard from  '../images/keyboard.png'
 import laptop from '../images/laptopNew.png'
 import monitor from '../images/monitorNew.png'
 import speaker from '../images/speaker.png'
