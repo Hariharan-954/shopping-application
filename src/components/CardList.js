@@ -124,8 +124,6 @@ const CardList = (props) => {
         <div >
             <Box sx={{ justifyContent: "center", paddingTop: "20px" }} >
 
-                {/* <div style={{ position: "relative" }} > */}
-
                 {cartAlert && (
                     <div style={{ position: "fixed", bottom: 20, left: 0, right: 0, display: "flex", justifyContent: "center", zIndex: 1000 }}>
                         <CartAlertComponent />

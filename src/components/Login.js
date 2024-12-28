@@ -36,7 +36,7 @@ const Login = () => {
       setLoading(true)
       setTimeout(() => {
         setLoading(false)
-        navigate('/products', { replace: true }); 
+        navigate('/products', { replace: true });
       }, 1000)
     }
     else {
@@ -44,17 +44,25 @@ const Login = () => {
       setEmail('')
       alert("Invalid username or password");
     }
+  };
+
+  // Prevent rendering the login form for authenticated users
+  if (localStorage.getItem('isAuthenticated') === "true") {
+    return (
+      <Box sx={{ display: "flex", position: "absolute", top: "50%", left: "50%" }}>
+        <CircularProgress sx={{ color: "#5506bb" }} />
+      </Box>
+    );
   }
 
   return (
     <>
-      {loading ?
-        <Box sx={{ display: "flex", position: "absolute", top: "50%", left: "50%" }} >
-
+      {loading ? (
+        <Box sx={{ display: "flex", position: "absolute", top: "50%", left: "50%" }}>
           <CircularProgress sx={{ color: "#5506bb" }} />
         </Box>
-        :
-        (<Box
+      ) : (
+        <Box
           sx={{
             display: "flex",
             justifyContent: "center",
